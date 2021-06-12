@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-less`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -19,8 +20,8 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Defaults to 100
-        collectionTypes: [`article`, `user`],
-      //  singleTypes: [`home-page`, `contact`],
+       // collectionTypes: [`article`, `user`],
+       // singleTypes: [`home-page`, `contact`],
       },
     },
     `gatsby-transformer-sharp`,

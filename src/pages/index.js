@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <StaticImage
+{/*    <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
       quality={95}
@@ -29,11 +29,12 @@ const IndexPage = ({ data }) => (
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    </p>*/}
   </Layout>
 )
 
 export default IndexPage
+/*
 
 export const pageQuery = graphql`
    query IndexQuery {
@@ -53,3 +54,4 @@ export const pageQuery = graphql`
        }
    }
 `
+*/
