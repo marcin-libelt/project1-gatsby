@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import {Link} from "gatsby"
 import {StaticImage} from "gatsby-plugin-image"
 import MainNav from './mainNav';
+import MobileNav from "./mobileNav";
 
 const Header = ({siteTitle}) => (
   <header>
@@ -25,6 +26,8 @@ const Header = ({siteTitle}) => (
               />
             </Link>
           </h1>
+
+          <MobileNav />
 
           <nav className={'main-nav'}>
             <MainNav/>

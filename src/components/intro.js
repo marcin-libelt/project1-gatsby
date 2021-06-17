@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import PropTypes from "prop-types"
 
 
-const Intro = ({title, image, updateStyle}) => {
+const Intro = ({title, image, updateStyle, bottom}) => {
 
   const styles = {
     backgroundColor: '#eeeae1',
@@ -19,10 +19,11 @@ const Intro = ({title, image, updateStyle}) => {
   };
 
   return (
-  <Parallax blur={0} bgImage={image} bgImageAlt="the cat" strength={100}>
+  <Parallax blur={0} bgImage={image} bgImageAlt="the cat" strength={0}>
     <div style={{...styles}} className={'intro-container my-5'}>
       <h1 className={'h1'} style={{...fontStyles, ...updateStyle }}>{title}</h1>
     </div>
+    <div>{bottom}</div>
   </Parallax>
 
 )}

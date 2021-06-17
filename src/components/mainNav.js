@@ -1,30 +1,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { navItems } from "../data";
 
 const MainNav = ({isForFooter}) => {
-
-  const navItems = [
-    {
-      route: "/",
-      title: 'Home'
-    },{
-      route: "/portfolio",
-      title: 'Portfolio'
-    },{
-      route: "/service",
-      title: 'Services'
-    },{
-      route: "/about",
-      title: 'About'
-    },{
-      route: "/blog",
-      title: 'Blog'
-    },{
-      route: "/contact",
-      title: 'Contact'
-    },
-  ]
 
   const length = Object.keys(navItems).length
 
