@@ -73,7 +73,6 @@ const IndexPage = ({data}) => (
                     <div className="col-md-5">
                         <StaticImage
                             src={"../images/homepage/01_Still_Life_AllisonCave_080+copy.jpg"}
-                            width={500}
                             quality={95}
                             layout={'fullWidth'}
                             formats={["AUTO", "WEBP", "AVIF"]}
