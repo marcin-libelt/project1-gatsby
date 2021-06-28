@@ -15,6 +15,7 @@ import {Parallax} from 'react-parallax';
 import Brands from "../components/brands";
 import Mosaic from "../components/mosaic";
 import { Vline } from "../components/v-line";
+import RequestQuoteModal from "../components/modal/requestQuote";
 
 const IndexPage = ({data}) => (
     <Layout>
@@ -171,7 +172,7 @@ const IndexPage = ({data}) => (
                                 <h3 className='h1 title my-5'>Tell a story that counts</h3>
                             </div>
                             <div className="action w-100 text-center">
-                                <Link to={'/modal'} className='btn btn-primary'>Request a quote</Link>
+                                <RequestQuoteModal />
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ export const navItems = [
     route: "/portfolio",
     title: 'Portfolio'
   },{
-    route: "/service",
+    route: "/services",
     title: 'Services'
   },{
     route: "/about",
